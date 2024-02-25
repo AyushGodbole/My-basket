@@ -1,0 +1,153 @@
+header{
+    height:auto;
+    width:100%;
+    margin:auto;
+    padding:20px 0px;
+}
+
+/* header .container-fluid .row{
+    display:flex;
+    align-items:center;
+} */
+
+header .container-fluid .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header .headerSearch{
+    height:60px;
+    width:100%;
+    border:1px solid #bce39c;
+    border-radius: 4px;
+    padding:10px 30px;
+}
+
+
+
+header .headerSearch .selectDrop{
+    width:37%;
+    font-size:16px;
+    font-weight:500;
+    position:relative;
+}
+
+header .headerSearch .selectDrop:after{
+    content:'';
+    width:1px;
+    height:30px;
+    background:rgba(0,0,0,0.2);
+    position:absolute;
+    top:0px;
+    right:0px;
+}
+
+header .headerSearch .search{
+    width:63%;
+    padding-left:30px;
+    position:relative;
+}
+
+header .headerSearch .search input{
+    width:100%;
+    border:0px;
+    height:50px;
+    outline:none !important;
+    font-size:18px;
+}
+
+header .headerSearch .search .searchIcon{
+    position:absolute;
+    top:14px;
+    right:0px;
+    opacity:0.7;
+    font-size:23px
+}
+
+
+header .countryWrapper .selectDrop{
+    height:50px;
+    width:220px !important;
+    padding-left:10px;
+    border:1px solid #ececec;
+    display:flex;
+    align-items:center;
+    -webkit-box-shadow:5px 5px 15px rgba(0,0,0,0.05);
+    box-shadow:5px 5px 15px rgba(0,0,0,0.05);
+}
+
+header .countryWrapper .selectDrop .openSelect{
+    color:#279a65;
+}
+
+header .countryWrapper .selectDrop .openSelect .arrow{
+    top:19px;
+    right:16px;
+    color:black;
+}
+
+header .countryWrapper .selectDrop .selectDropdown{
+    top: 106%;
+    left: -0.1px;
+}
+
+header .headerTabs{
+    padding-left:40px;
+    width:max-content;
+}
+
+header .headerTabs li{
+    position:relative;
+}
+
+header .headerTabs li span{
+    font-size:14px;
+    cursor:pointer;
+    margin-left:9px;
+}
+
+header .headerTabs li span .badge{
+    height: 20px;
+    width: 20px;
+    font-size: 11px;
+    position: absolute;
+    top: -5px;
+    left:-10px;
+}
+
+.dropdownMenu{
+  position: absolute;
+  top: 40px;
+  right: -3px;
+  width: 152px;
+  background: #fff;
+  box-shadow: 0px 3px 6px rgba(0 0 0 /20%);
+  padding:0;
+  z-index:100;
+}
+
+.dropdownMenu li{
+    width:100%;
+    list-style:none;
+    margin:0;
+}
+
+.dropdownMenu li button{
+    width: 100% !important;
+  justify-content: flex-start;
+  color: #000;
+  text-transform: capitalize;
+  font-size:14px;
+  padding:12px 15px;
+}
+
+.dropdownMenu li button:hover{
+    background:#f1f1f1;
+}
+
+.dropdownMenu li button svg{
+    opacity:0.7;
+    margin-right:8px;
+}
