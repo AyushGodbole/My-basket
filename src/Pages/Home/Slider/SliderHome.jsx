@@ -50,7 +50,7 @@ const SliderHome =()=>{
 
             <div className="newsletterBanner d-flex align-items-center">
                 <IoIosSend className="send"/>
-                <input type="text" placeholder="Your email address ..."/>
+                <input type="text" placeholder="Your email address"/>
                 <Button className="bg-success">Subscribe</Button>
             </div>
             </div>
