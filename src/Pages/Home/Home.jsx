@@ -1,8 +1,11 @@
 import React from "react";
+import Slider from "./Slider/SliderHome.jsx";
 
 function Home(){
     return(
-        <p></p>
+        <p>
+            <Slider/>
+        </p>
     )
 }
 
