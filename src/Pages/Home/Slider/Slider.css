@@ -75,3 +75,66 @@
 .slick-active button::before{
     color:#3bb77e !important;
 }
+
+
+.homeSlider .home_slider_Main .item{
+    position:relative;
+}
+
+.homeSlider .home_slider_Main .item .info{
+    position:absolute;
+    z-index:100;
+    top:15%;
+    left:7%;
+}
+
+.homeSlider .home_slider_Main .item .info h2{
+    font-size:55px !important;
+    font-weight:bolder !important;
+    color:rgba(0,0,0,0.7);
+}
+
+.homeSlider .home_slider_Main .item .info p{
+    font-size:30px !important;
+    font-weight:500 !important;
+    color:#7E7E7E;
+}
+
+
+.homeSlider .newsletterBanner{
+    width:430px;
+    height:60px;
+    position:absolute;
+    bottom:92px;
+    left:8%;
+    z-index:10;
+}
+
+.homeSlider .newsletterBanner input{
+    width:100%;
+    height:100%;
+    border-radius:30px;
+    border:0px;
+    outline:none !important;
+    padding-left:55px;
+    padding-right:200px;
+    font-size:20px;
+}
+
+.homeSlider .newsletterBanner .send{
+    position: absolute;
+    left: 5%;
+    font-size: 21px;
+    opacity:0.7;
+}
+
+.homeSlider .newsletterBanner button{
+    color: #fff;
+    padding: 0px 31px;
+    border-radius: 30px;
+    position: absolute;
+    height: 60px;
+    left: 83%;
+    font-size: 16px;
+    text-transform: capitalize;
+}
