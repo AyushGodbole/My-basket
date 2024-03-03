@@ -1,0 +1,41 @@
+.homeProducts{
+    padding:0px 30px;
+}
+
+.filterTab{
+    margin-left:auto;
+}
+
+.filterTab li{
+    margin-left:17px;
+    position:relative;
+    font-weight:600;
+}
+
+.filterTab li a{
+    text-decoration:none;
+    color:#000;
+    font-size:17px;
+    transition:all 0.3s ease-in-out;
+}
+
+.filterTab li:hover a{
+    color:#3bb77e !important;
+    top:-10px;
+}
+
+.homeProducts .productRow{
+    display:flex;
+    padding:30px 0;
+    margin:0 -15px;
+    flex-wrap:wrap;
+}
+
+.homeProducts .productRow .item{
+    width:20%;
+    height:auto;
+    padding:15px;
+}
+
+.homeProductsRow2 .prodSlider .item{padding:15px 12px; padding-right:25px !important;}
+.homeProductsRow2 .pr{padding-right:25px;}

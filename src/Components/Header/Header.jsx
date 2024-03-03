@@ -65,6 +65,7 @@ function Header(){
 
     return(
         <>
+            <div className="headerWrapper">
             <header>
             <div className="container-fluid">
                 <div className="row">
@@ -141,6 +142,7 @@ function Header(){
             </div>
         </header>
         <Nav/>
+            </div>
         </>
     )
 }

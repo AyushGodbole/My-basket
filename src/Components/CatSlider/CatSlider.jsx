@@ -26,6 +26,9 @@ function CatSlider(){
         slidesToShow: 10,
         slidesToScroll: 1,
         fade:false,
+        autoplay: true,
+        autoplaySpeed:2000,
+        cssEase:"linear"
       };
 
     return(

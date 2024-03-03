@@ -1,0 +1,79 @@
+.productThumb{
+    width:100%;
+    height:auto;
+    border:1px solid rgb(0,0,0,0.2);
+    overflow:hidden;
+    border-radius:15px;
+    padding:20px;
+    transition:all 0.3s ease-in-out;
+    position:relative;
+}
+
+.productThumb .badge{
+    position:absolute;
+    background:red;
+    z-index:10;
+    top:0;
+    left:0;
+    font-size:14px;
+    padding:10px 20px;
+    border-bottom-right-radius:50px;
+    border-top-left-radius:15px;
+}
+
+.productThumb .badge.hot{background:#f74b81 !important;}
+.productThumb .badge.sale{background:#67bcee !important;}
+.productThumb .badge.new{background:#3bb77e !important;}
+.productThumb .badge.best{background:#f59758 !important;}
+
+
+.productThumb .imageWrapper{width:100%; overflow:hidden; position:relative;}
+.productThumb .imageWrapper img{transition:all 0.3s ease-in-out;}
+.productThumb .imageWrapper:hover img{transform:scale(1.1);}
+
+.productThumb .imageWrapper .overlay{width:100%; height:100%; position:absolute; top:0px; left:0px; padding:25px; display:flex; justify-content:center; align-items:center; opacity:0; transform:scale(0.8); transition:all 0.3s ease-in-out;}
+.productThumb .imageWrapper .overlay ul{background:#fff; width:140px; height:auto; border-radius:5px;border:1px solid #BCE3C9;overflow:hidden;}
+.productThumb .imageWrapper .overlay ul li a svg{color:#3bb77e;}
+.productThumb .imageWrapper .overlay ul li a svg:hover{color:#000;opacity:0.7;}
+
+.productThumb:hover .imageWrapper .overlay{opacity:1; transform:scale(0.9);}
+
+.productThumb .imageWrapper .overlay .list{margin-bottom:0; display: flex; justify-content: space-evenly;padding: 5px 1px;}
+
+.productThumb .imageWrapper .overlay .popper{background:#3bb77e;}
+
+.productThumb:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
+}
+.productThumb .info .add-btn{
+    margin-left:auto;
+}
+.productThumb .catName{
+    color:#000;
+    opacity:0.8;
+    font-size:14px;
+    margin-top:12px;
+}
+
+.productThumb .title{
+    margin:10px 0px;
+}
+
+.productThumb .title a{
+    color:#000;
+    font-weight:600;
+    font-size:18px;
+    text-decoration:none;
+}
+
+.productThumb .desc{margin-top:6px;}
+
+.productThumb .brand{color:rgba(0,0,0,0.6);}
+
+.productThumb .brand a{text-decoration:none;}
+
+.productThumb .price{font-weight:bold; font-size:20px;}
+.productThumb .oldPrice{font-size:14px; opacity:0.6; text-decoration:line-through;}
+
+.productThumb button{font-size:16px !important; color:#3bb77e; padding:5px 20px; text-transform:capitalize; background:#def9ec !important;}
+.productThumb button:hover{background:#3bb77e !important; color:#fff;}

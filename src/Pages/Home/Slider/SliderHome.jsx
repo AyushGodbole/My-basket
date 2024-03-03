@@ -19,6 +19,9 @@ const SliderHome =()=>{
         slidesToScroll: 1,
         fade:true,
         arrows:true,
+        autoplay: true,
+        autoplaySpeed:2000,
+        cssEase:"linear"
       };
 
     return(

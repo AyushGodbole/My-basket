@@ -32,7 +32,7 @@
     background:#F2F3F4 !important;
     z-index:1000 !important;
     transition: all 0.2s ease-in-out !important;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23)
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .slick-arrow:hover{
@@ -117,8 +117,8 @@
     border:0px;
     outline:none !important;
     padding-left:55px;
-    padding-right:200px;
-    font-size:20px;
+    padding-right:100px;
+    font-size:17px;
 }
 
 .homeSlider .newsletterBanner .send{

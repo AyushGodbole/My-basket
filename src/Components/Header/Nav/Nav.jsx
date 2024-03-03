@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import '../Nav/Nav.css';
 import '../../../../src/index.css';
 import { Button } from "@mui/material";
@@ -11,8 +11,24 @@ import { FaPhone } from "react-icons/fa";
 import menuBanner from '../../../../public/Images/banner-menu.webp';
 
 function Nav(){
+
+    const headerRef = useRef();
+
+    useEffect(()=>{
+        window.addEventListener('scroll',()=>{
+            let position = window.pageYOffset;
+
+            if(position>100){
+                headerRef.current.classList.add('fixed');
+            }
+            else{
+                headerRef.current.classList.remove('fixed');
+            }
+        })
+    },[])
+
     return(
-        <div className="nav d-flex align-items-center">
+        <div ref={headerRef} className="nav headerWrapper d-flex align-items-center">
             <div className="container-fluid">
                 <div className="row position-relative">
                     <div className="col-sm-2 part1 d-flex align-items-center">

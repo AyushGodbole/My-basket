@@ -13,6 +13,7 @@
     justify-content:center;
     cursor:pointer;
     border-radius:13px;
+    padding:10px 0px;
 }
 
 .catSliderSection .item .info{
@@ -22,6 +23,7 @@
     align-items:center;
     justify-content:center;
     padding:15px;
+    transition: all 0.2s ease-in-out;
 }
 
 .catSliderSection .item .info h5{
@@ -53,4 +55,10 @@
     top:-46px !important;
     right:60px !important;
     left:inherit !important;
+}
+
+
+.catSliderSection .item:hover .info{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16) , 0 3px 6px rgba(0,0,0,0.23);
+    transform:scale(1.05);
 }
