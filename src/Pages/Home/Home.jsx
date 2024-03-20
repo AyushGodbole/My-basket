@@ -7,6 +7,11 @@ import Product from "../../Components/Product/Product.jsx";
 import Banner4 from '../../../public/Images/banner4.jpg';
 
 import Slider from "react-slick";
+import TopProducts from "./topProducts/TopProducts.jsx";
+import "./topProducts/TopProducts.css";
+
+import newsletterImg from '../../../public/Images/newsletter.png';
+import Newsletter from "../../Components/Newsletter/Newsletter.jsx";
 
 function Home(){
 
@@ -149,6 +154,48 @@ function Home(){
                                 <Product tag='hot'/>
                             </div>
                         </Slider>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="topProductsSection">
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col">
+                            <TopProducts title={'Top Selling'}/>
+                        </div>
+
+                        <div className="col">
+                            <TopProducts title={'Trending Products'}/>
+                        </div>
+
+                        <div className="col">
+                            <TopProducts title={'Recently added'}/>
+                        </div>
+
+                        <div className="col">
+                            <TopProducts title={'Top Rated'}/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="newsletterSection">
+                <div className="container-fluid">
+                    <div className="box d-flex align-items-center">
+                        <div className="info">
+                            <h2>Stay at your home & get your dialy<br/>needs from our shop</h2>
+                            <p>Start You'r Daily Shopping with Nest Mart </p>
+
+                            <br/>
+                            <br/>
+
+                            <Newsletter/>
+                        </div>
+
+                        <div className="img">
+                            <img src={newsletterImg} alt="" className="w-100"/>
                         </div>
                     </div>
                 </div>

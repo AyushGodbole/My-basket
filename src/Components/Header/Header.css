@@ -6,7 +6,7 @@ header{
 }
 
 .headerWrapper{transition:all 0.3s ease-in-out; background:#fff;}
-.headerWrapper .fixed{position:fixed; top:0px; left:0px; background:#fff; z-index:5000;}
+.headerWrapper .fixed{position:fixed; top:-5px; left:0px; background:#fff; z-index:5000;}
 
 /* .headerWrapper{position:sticky; top:0; background:#fff; z-index:5000;} */
 

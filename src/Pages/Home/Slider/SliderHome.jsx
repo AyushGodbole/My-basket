@@ -4,10 +4,8 @@ import './Slider.css';
 
 import Slider1 from '../../../../public/Images/slider-1.png';
 import Slider2 from '../../../../public/Images/slider-2.png';
+import Newsletter from "../../../Components/Newsletter/Newsletter";
 
-import { Button } from "@mui/material";
-// import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
-import { IoIosSend } from "react-icons/io";
 
 const SliderHome =()=>{
 
@@ -50,12 +48,7 @@ const SliderHome =()=>{
                     </div>
                 </div>
             </Slider>
-
-            <div className="newsletterBanner d-flex align-items-center">
-                <IoIosSend className="send"/>
-                <input type="text" placeholder="Your email address"/>
-                <Button className="bg-success">Subscribe</Button>
-            </div>
+                <Newsletter/>
             </div>
         </section>
     )

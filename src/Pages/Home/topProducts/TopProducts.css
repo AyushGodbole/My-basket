@@ -1,0 +1,22 @@
+.topProductsSection{
+    padding:0px 30px;
+}
+
+.topSellingBox h3{
+    font-size:25px;
+    font-weight:600;
+    position:relative;
+    padding-bottom:20px;
+    margin-bottom:30px;
+}
+
+.topSellingBox h3:after{content:''; width:100%; height:3px; background:#f0f0f0; position:absolute; bottom:0px; left:0px;}
+.topSellingBox h3:before{content:''; width:22%; height:3px; background:#7fdc9e; position:absolute; bottom:0px; left:0px; z-index:10;}
+
+.topSellingBox .items{padding:20px 0px; position:relative; transition:all 0.3s ease-in-out}
+.topSellingBox .items .img{width:30%; background:#ccc;}
+.topSellingBox .items .info{width:70%;}
+.topSellingBox .items .info h4{font-weight:600 !important; opacity:0.8; font-size:18px !important;} 
+.topSellingBox .items .info a{text-decoration:none; color:#000;}
+
+.topSellingBox .items:hover{transform:translateY(-10px);}

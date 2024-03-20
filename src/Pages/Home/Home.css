@@ -39,3 +39,13 @@
 
 .homeProductsRow2 .prodSlider .item{padding:15px 12px; padding-right:25px !important;}
 .homeProductsRow2 .pr{padding-right:25px;}
+
+.newsletterSection{width:100%; height:auto;}
+.newsletterSection .box{background:url(../../../public/Images/bg.png); width:100%; height:auto; padding:60px 80px; border-radius:30px;overflow:hidden;}
+.newsletterSection .box .newsletterBanner{position:relative !important; left:0px !important; bottom:inherit !important;}
+.newsletterSection .box .info{width:55%;}
+.newsletterSection .box .info h2{font-size:40px; font-weight:600; line-height:50px;opacity:0.8;}
+.newsletterSection .box .info p{font-size:22px; opacity:0.8;}
+
+.newsletterSection .box .img{width:45%;}
+.newsletterSection .box .img img{position:relative; top:60px;}

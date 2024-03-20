@@ -72,8 +72,8 @@
 
 .productThumb .brand a{text-decoration:none;}
 
-.productThumb .price{font-weight:bold; font-size:20px;}
-.productThumb .oldPrice{font-size:14px; opacity:0.6; text-decoration:line-through;}
+.price{font-weight:bold; font-size:20px;}
+.oldPrice{font-size:14px; opacity:0.6; text-decoration:line-through;}
 
 .productThumb button{font-size:16px !important; color:#3bb77e; padding:5px 20px; text-transform:capitalize; background:#def9ec !important;}
 .productThumb button:hover{background:#3bb77e !important; color:#fff;}
