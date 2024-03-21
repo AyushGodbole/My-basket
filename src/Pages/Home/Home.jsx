@@ -12,6 +12,7 @@ import "./topProducts/TopProducts.css";
 
 import newsletterImg from '../../../public/Images/newsletter.png';
 import Newsletter from "../../Components/Newsletter/Newsletter.jsx";
+import Footer from "../../Components/Footer/Footer.jsx";
 
 function Home(){
 
@@ -200,6 +201,8 @@ function Home(){
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </>
     )
 }
